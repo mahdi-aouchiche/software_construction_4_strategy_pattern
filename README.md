@@ -121,3 +121,19 @@ TEST(SortTestSet, SelectionSortTest) {
 
 To receive credit for this lab you must show an example program to your TA that demonstrates the full functionality of this pattern, including any interactions with other patterns. You must also show your TA the tests that you have created for validating that your classes are functioning correctly.
 
+
+### To run the project nicely run the following commands
+```c++
+mkdir build
+cd build
+cmake ..
+make 
+```
+
+### 4 executables are created, use one of the commands to run an executable:
+```c++
+./lab3_tests
+./lab3
+./lab4_tests
+./lab4
+```
